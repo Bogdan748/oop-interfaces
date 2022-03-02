@@ -6,19 +6,12 @@ using System.Threading.Tasks;
 
 namespace OopInterfaces
 {
-    public interface IObjectWithArea
+    public enum SheetOfPaerFormat
     {
-        double Area { get; }
+        A0 = 0,
+        A1,
+        A2,
+        A3,
+        A4
     }
-
-    
-
-    
-
-
-    
-
-    
-
-    
 }

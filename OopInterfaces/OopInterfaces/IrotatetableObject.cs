@@ -6,19 +6,8 @@ using System.Threading.Tasks;
 
 namespace OopInterfaces
 {
-    public interface IObjectWithArea
+    interface IrotatetableObject
     {
-        double Area { get; }
+        void Rotate(double angleDegrees);
     }
-
-    
-
-    
-
-
-    
-
-    
-
-    
 }

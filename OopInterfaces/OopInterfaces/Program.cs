@@ -6,7 +6,10 @@ namespace OopInterfaces
     {
         static void Main(string[] args)
         {
-            
+            double sum = AreaCalculator.SumAreas(
+                new Rectangle(10, 20),
+                new SheetOfPaper(SheetOfPaerFormat.A3));
+            Console.WriteLine(sum);
         }
     }
 }

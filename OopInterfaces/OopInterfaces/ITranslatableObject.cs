@@ -6,19 +6,8 @@ using System.Threading.Tasks;
 
 namespace OopInterfaces
 {
-    public interface IObjectWithArea
+    interface ITranslatableObject
     {
-        double Area { get; }
+        public void Translate(int dx, int dy);
     }
-
-    
-
-    
-
-
-    
-
-    
-
-    
 }
